@@ -1,0 +1,29 @@
+{
+  "name": "contentstack-implementation-guide-nuxt-ssr",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timbenniks/contentstack-implementation-guide-nuxt-ssr"
+  },
+  "description": "contentstack-implementation-guide-nuxt-ssr",
+  "author": "Tim Benniks <tbenniks@gmail.com>",
+  "homepage": "https://timbenniks.dev",
+  "license": "MIT",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@contentstack/delivery-sdk": "^4.3.0",
+    "@contentstack/live-preview-utils": "^2.0.4",
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "nuxt": "^3.13.2",
+    "vue": "latest",
+    "vue-router": "latest"
+  }
+}
