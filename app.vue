@@ -3,10 +3,12 @@ import type { LivePreviewQuery } from "@contentstack/delivery-sdk";
 
 const route = useRoute();
 const live_preview = route.query.live_preview;
+const content_type_uid = route.query.content_type_uid;
 const contentTypeUid = route.query.content_type_uid;
 
 const { data: page, refresh } = await useGetPage("/", {
   live_preview,
+  content_type_uid,
   contentTypeUid,
 } as LivePreviewQuery);
 
