@@ -1,12 +1,6 @@
 <script lang="ts" setup>
 import VB_EmptyBlockParentClass from "@contentstack/live-preview-utils";
-
-const { data: page, refresh } = await useGetPage("/");
-
-onMounted(() => {
-  const { $preview, $ContentstackLivePreview } = useNuxtApp();
-  $preview && $ContentstackLivePreview.onEntryChange(refresh);
-});
+const { data: page } = await useGetPage("/");
 </script>
 <template>
   <main class="max-w-screen-md mx-auto">
