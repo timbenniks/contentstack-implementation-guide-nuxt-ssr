@@ -1,15 +1,14 @@
 {
-  "name": "contentstack-implementation-guide-nuxt-ssr",
+  "name": "kickstart-nuxt-ssr",
+  "version": "1.0.0",
   "private": false,
-  "version": "0.0.7",
-  "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/timbenniks/contentstack-implementation-guide-nuxt-ssr"
+    "url": "https://github.com/contentstack/kickstart-nuxt-ssr"
   },
-  "description": "contentstack-implementation-guide-nuxt-ssr",
-  "author": "Tim Benniks <tbenniks@gmail.com>",
-  "homepage": "https://timbenniks.dev",
+  "description": "Contentstack Kickstarts are the minimum amount of code needed to connect to Contentstack.",
+  "author": "Tim Benniks <tim.benniks@contentstack.com>",
+  "homepage": "https://contentstack.com",
   "license": "MIT",
   "scripts": {
     "build": "nuxt build",
